@@ -1,0 +1,111 @@
+* {
+
+    box-sizing: border-box;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+ 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.bg-banner {
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 727px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-gray {
+    background-color: #1E1A13;
+    height: fit-content;
+}
+
+.pd-y {
+    padding-top: 45px;
+    padding-bottom: 66px;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img {
+    float: right;
+    height: 237px;
+    width: 399px;
+}
+.container img:hover{
+    filter: opacity(50%);
+}
+
+.parrafo {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+    vertical-align: middle;
+    height: 237px;
+}
+
+.contenedor {
+    padding-top: 75px;
+    padding-bottom: 74px;
+}
+
+.contenedor h2 {
+
+    font-size: 40px;
+    text-align: center;
+}
+
+.caja {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 16px 30px;
+}
+
+.iconos {
+    width: 33%;
+    display: inline-block;
+}
+
+.iconos i {
+    padding-bottom: 16px;
+    font-size: 3rem;
+    width: 50%;
+}
+.iconos i:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.images {
+    text-align: center;
+    padding: 73px 150px;
+}
+.images img {
+    
+    display: inline-block;
+    width: 316px;
+    height: 202px;
+    padding: 0px 8px;
+}
+
+.images img:hover{
+    filter: opacity(50%);
+}
+.piedepg {
+    padding: 39px 299px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
